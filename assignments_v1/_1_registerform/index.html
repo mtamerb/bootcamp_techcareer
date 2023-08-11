@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Responsive Register Form</title>
+</head>
+
+<body>
+
+<section class="container">
+    <div class="row mt-5 justify-content-center">
+
+        <article class="col-12 col-md-6 card">
+            <h2 class="form-check-label"><b>Register</b></h2>
+            <p class="text-center text-muted">Fill out this form</p>
+
+            <form action="#" method="post" autocomplete="on">
+                <div class="input-group mb-2">
+                    <div class="input-group mb-1">
+                        <input type="text" class="form-control mr-2" required placeholder="First Name" autofocus="true">
+                        <input type="text" class="form-control" required placeholder="Last Name">
+                    </div>
+                </div>
+                <div class="input-group mb-2">
+                    <span class="input-group-text"><i class="fa fa-user"></i></span>
+                    <input id="username" type="username" name="username" class="form-control " required
+                           placeholder="User Name">
+                </div>
+                <div class="input-group mb-2">
+                    <span class="input-group-text "><i class="fa fa-envelope"></i></span>
+                    <input id="email" type="text" name="button" class="form-control " required
+                           placeholder="E-mail Address">
+                </div>
+                <div class="input-group mb-2">
+                    <span class="input-group-text "><i class="fa fa-key"></i></span>
+                    <input id="password" type="password" name="password" class="form-control " required
+                           placeholder="Password">
+                </div>
+                <div class="form-check mt-2 mb-2">
+                    <input class="form-check-input" name="checkbox" type="checkbox" value="" id="agreeCheckbox">
+                    <label class="form-check-chekbox" for="agreeCheckbox">
+                        I agree with the <b>Terms and Conditions</b> and the <b>Privacy Policy</b>
+                    </label>
+                </div>
+                <div class="btn btn-info btn-block">
+                    <button id="button" type="submit" name="button" class="btn btn-info">Create Account</button>
+                </div>
+            </form>
+        </article>
+    </div>
+</section>
+
+</body>
+
+</html>
